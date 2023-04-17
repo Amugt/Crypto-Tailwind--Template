@@ -61,3 +61,29 @@ details,
 .contact-form {
     background-color: rgb(18, 23, 69, 0.85);
 }
+
+.social-medias {
+    display: flex;
+    gap: 15px;
+}
+
+.social-media-icons {
+    background-color: #131b4d;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    color: white;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.social-media-icons:hover {
+    background-color: #3e7dff;
+    cursor: pointer;
+}
